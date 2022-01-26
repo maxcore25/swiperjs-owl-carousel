@@ -13,6 +13,13 @@ body {
   align-items: center;
   background: #f2f2f2;
 }
+section {
+  position: relative;
+  width: 1075px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
 .swiper {
   width: 950px;
 }
@@ -35,7 +42,7 @@ body {
   background: #fff;
   border-radius: 20px;
   margin: 20px 0;
-  width: 280px;
+  /* width: 280px; */
 }
 .card::before {
   content: '';
@@ -115,4 +122,10 @@ body {
 }
 .buttons button:hover {
   background: #6616d0;
+}
+.swiper-pagination-bullet {
+  width: 26px !important;
+  height: 7px !important;
+  border-radius: 25px !important;
+  background: #7d2ae8 !important;
 }
